@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canlı yayın</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #101318; color: #eef2f8; font: 16px system-ui, sans-serif; }
+    main { width: min(100% - 32px, 960px); }
+    video { display: block; width: 100%; background: #000; aspect-ratio: 16 / 9; }
+    a { color: #9cc7ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <video controls autoplay playsinline src="/hls/index.m3u8"></video>
+    <p>HLS adresi: <a href="/hls/index.m3u8">/hls/index.m3u8</a></p>
+    <p>Akış başlamadıysa FFmpeg ilk segmentleri oluşturana kadar birkaç saniye bekleyip yenileyin.</p>
+  </main>
+</body>
+</html>

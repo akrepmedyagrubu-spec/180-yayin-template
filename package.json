@@ -1,0 +1,13 @@
+{
+  "name": "wisp-hls-video-playlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playlist videos as a continuous HLS stream with ad and broadcast logo overlays.",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0"
+  }
+}

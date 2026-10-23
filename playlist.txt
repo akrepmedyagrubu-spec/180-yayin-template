@@ -1,0 +1,5 @@
+# Her satır bir dosya; sıra yukarıdan aşağıya.
+# Reklam videosunun dosya adı tam olarak reklam.mp4 olmalı.
+video1.mp4
+reklam.mp4
+video2.mp4
